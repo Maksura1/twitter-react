@@ -1,9 +1,16 @@
 import React from 'react';
+import {BrowserRouter, Route, Switch } from 'react-router-dom'
+
 
 function App() {
   return (
     <div>
-      Hey How's it going?
+      <BrowserRouter>
+			 <switch>
+			  <Route path = "/login" component {login}\>
+				<Route path = "/register" component {register}\>
+			 </switch>
+			</BrowserRouter>
     </div>
   );
 }
