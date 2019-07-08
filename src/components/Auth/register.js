@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const register = () =>{
-	 <div>
-	  This is the Registration Page
-	 </div>
+class Register extends Component {
+	render() {
+  return (
+    <div>
+      Register Here!
+    </div>
+  )
+ }
 }
 
-export default register;
+
+export default Register;

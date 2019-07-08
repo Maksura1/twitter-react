@@ -1,18 +1,23 @@
-import React from 'react';
+import React, {Component} from 'react';
+
 import {BrowserRouter, Route, Switch } from 'react-router-dom'
-import home from './components/Home';
+import Home from './components/Home';
+import Login from './components/Auth/Login';
+import Register from './components/Auth/Register';
 
 class App extends Component {
 	render() {
   return (
     <div>
       <BrowserRouter>
-			 <switch>
-			  <Route path = "/home" component={home}/>
-			 </switch>
+			 <Switch>
+			  <Route path = "/home" component={Home}/>
+				<Route path ="/login" component={Login}/>
+				<Route path ="/register" component={Register}/>
+			 </Switch>
 			</BrowserRouter>
     </div>
-  );
+   );
   }
 }
 
