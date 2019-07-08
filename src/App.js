@@ -1,18 +1,19 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch } from 'react-router-dom'
+import home from './components/Home';
 
-
-function App() {
+class App extends Component {
+	render() {
   return (
     <div>
       <BrowserRouter>
 			 <switch>
-			  <Route path = "/login" component {login}\>
-				<Route path = "/register" component {register}\>
+			  <Route path = "/home" component={home}/>
 			 </switch>
 			</BrowserRouter>
     </div>
   );
+  }
 }
 
 export default App;
