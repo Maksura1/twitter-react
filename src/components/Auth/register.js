@@ -37,9 +37,9 @@ class Register extends Component {
 						 </div>
 
 						 <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
-						 <a className="d-block text-center mt-2 small" href="#">Sign In</a>
+						 <a className="d-block text-center mt-2 small" href="http://localhost:3000/">Sign In</a>
 						 <hr className="my-4"/>
-						 
+
 					 </form>
 				 </div>
 			 </div>
