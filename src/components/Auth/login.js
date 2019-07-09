@@ -30,10 +30,13 @@ class Login extends Component {
 
 					</form>
 				</div>
+				<button id ="button" type="button" class="btn btn-primary btn-lg btn-block"> <a href="http://localhost:3000/register">REGISTER</a></button>
 			</div>
 		</div>
 	</div>
 </div>
+
+
 
   )
  }

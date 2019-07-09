@@ -3,6 +3,18 @@
   --input-padding-y: .75rem;
 }
 
+a {
+	color: #007bff;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+#button {
+	background-color: white;
+	border-radius: 15px;
+	border-color: white;
+
+}
 body {
   background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
