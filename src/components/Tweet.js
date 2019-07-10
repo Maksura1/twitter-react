@@ -7,7 +7,6 @@ class Tweet extends Component {
 	// Render
 	render() {
 		return (
-
 			<div id="new-tweets">
 					<form>
 						<div className="input-group">
