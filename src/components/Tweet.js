@@ -7,7 +7,17 @@ class Tweet extends Component {
 	// Render
 	render() {
 		return (
-			<h1>Tweet goes here </h1>
+
+			<div id="new-tweets">
+					<form>
+						<div className="input-group">
+							<input type="text" className="form-control" />
+							<div className="input-group-append">
+								<button type="submit" className="btn btn-success">Send</button>
+							</div>
+						</div>
+					</form>
+				</div>
 		)
 	}
 }

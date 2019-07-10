@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
  import './Profile.css'
+ import Tweet from './Tweet.js'
 
 class Profile extends Component {
 	// Data
@@ -83,8 +84,9 @@ class Profile extends Component {
 							 <span className="mr-2">12:23 PM </span>
 							 <nav><div class="body">Hey!! How has it been going? Let's hang out!"</div></nav>
 						 </div>
-
-					</div>
+						   <Tweet />
+            </div>
+						
 					<div className="col-3" id="hashtags" >
 		        <h5>Who to Follow!</h5>
 						<ul className="list-unstyled">
@@ -96,8 +98,7 @@ class Profile extends Component {
 						</ul>
 					</div>
 				</div>
-
-			</div>
+      </div>
 		</div>
 		)
 	}

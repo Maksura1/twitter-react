@@ -11,7 +11,6 @@ class Home extends Component {
 		return (
 			<div id="wrap">
 				<Profile />
-				<Tweet />
 			</div>
 		)
 	}
