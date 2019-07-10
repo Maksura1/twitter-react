@@ -63,6 +63,11 @@ class Profile extends Component {
 							 <span className="mr-2"> 9 July, 2019</span>
 							 <span className="mr-2">12:23 PM </span>
 							 <nav><div class="body">Hey!! How has it been going? Let's hang out!"</div></nav>
+							 <nav>
+							 <span><button className="blue"> #FUN </button></span>
+							 <span><button className="blue">Like:</button> 51 </span>
+							 </nav>
+
 						 </div>
 
 						 <div className="wrap p-2 m-2 tweet">

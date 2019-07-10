@@ -2,8 +2,14 @@
 	margin: 10px;
 	border: solid 5px #rgb(255, 0, 0);
 }
+
+#header> .col > span> a {
+	color:#007bff;
+	font-weight: bold;
+	font-size: 16px;
+}
 #menuTab > span > a{
-	color: darkgrey;
+	color:#007bff;
 	font-weight: bold;
 	font-size: 16px;
 }
@@ -35,7 +41,7 @@
 
 #following > a{
 	background-color: white;
-	color: darkgrey;
+	color: #007bff;
 	font-weight: bold;
 	font-size: 16px;
 }
@@ -66,6 +72,13 @@
 	overflow: auto;
 	background-color: white;
 	border: solid 2px grey;
+}
+
+.blue {
+	border-radius: 5px;
+	background-color: #007bff;
+	margin: 5px;
+	padding: 5px;
 }
 .tweet {
 	background-color: lightblue;
