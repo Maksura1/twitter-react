@@ -1,1 +1,87 @@
+#header {
+	margin: 10px;
+	border: solid 5px #rgb(255, 0, 0);
+}
+#menuTab > span > a{
+	color: darkgrey;
+	font-weight: bold;
+	font-size: 16px;
+}
 
+#main{
+	height: 400px;
+	background-color: lightblue;
+	border: darkgrey;
+}
+
+#profile {
+	height: 150px;
+	width: 150px;
+	border: solid 5px white;
+	background-color: white;
+	background-image: url("https://pbs.twimg.com/profile_images/1123914562711977987/s2xAjcwj_400x400.png");
+  position: absolute;
+	z-index: 10000;
+	top:-100px;
+	border-radius: 50%;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#tabs {
+	background-color: white;
+}
+
+#following > a{
+	background-color: white;
+	color: darkgrey;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#jumbotron{
+	height: 300px;
+	width: 140%;
+	background-image: url("star.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: 2px solid grey;
+}
+
+.body {
+	background-color: white;
+	padding: 8px;
+	border-radius: 3px;
+	border-color: grey;
+}
+
+#sidebar {
+	height:400px;
+	padding-top: 20px;
+}
+#tweets {
+	height: 400px;
+	overflow: auto;
+	background-color: white;
+	border: solid 2px grey;
+}
+.tweet {
+	background-color: lightblue;
+	border-radius: 5px;
+
+}
+#hashtags {
+	height: 400px;
+	border: solid 2px grey;
+	background-color: white;
+}
+
+.wrap {
+	border-radius: 5px;
+	border: solid 1px #000;
+}
+#icons {
+width: 140%;
+}
