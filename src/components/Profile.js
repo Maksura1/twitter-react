@@ -85,7 +85,7 @@ class Profile extends Component {
 
 								 {
 						this.state.posts.map((p) => {
-							return <Post />
+							return <Post post={p} key={p.id} />
 						})
 					}
 

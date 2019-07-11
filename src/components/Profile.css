@@ -80,12 +80,12 @@
 	border-radius: 5px;
 }
 
-.blue {
+.hashtag, .like {
 	border-radius: 5px;
 	background-color: #007bff;
 	margin: 5px;
-	padding: 5px;
 }
+
 #tweet {
 	background-color: #007bff;;
 	border-radius: 5px;
