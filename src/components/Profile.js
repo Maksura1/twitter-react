@@ -1,9 +1,30 @@
 import React, {Component} from 'react'
  import './Profile.css'
  import Tweet from './Tweet.js'
+ import Post from './posts.js'
 
 class Profile extends Component {
 	// Data
+	state = {
+		posts: [
+			{
+				id: 1,
+				userName: 'Tony Russo',
+				date: '2 Jul 2019',
+				time: '9:09AM',
+				body: 'Hello World',
+				hashtag: '#Fun',
+				like: 2
+			}, {
+				id: 2,
+				user: 'Poonam Alam',
+				date: '2 Jul 2019',
+				time:'12AM',
+				body: 'Hey, what up?',
+				like: 3
+			}
+		]
+	}
 	// Functions
 	// Render
 	render() {
@@ -57,35 +78,17 @@ class Profile extends Component {
 		        </form>
 
 					</div>
-					<div id="tweetsContainer" className="col-6">
+					<div id="tweetsContainer" className="col-7">
 						<div className="row">
 							<div className="col-12" id="tweets" >
 				         Look at my tweets!
-								 <div className="wrap p-2 m-2 tweet">
-									 <span className="mr-2"><a href="">@UserName</a></span>
-									 <span className="mr-2"> 9 July, 2019</span>
-									 <span className="mr-2">12:23 PM </span>
-									 <nav><div class="body">Hey!! How has it been going? Let's hang out!"</div></nav>
-									 <nav>
-									 <span><button className="blue"> #FUN </button></span>
-									 <span><button className="blue">Like:</button> 51 </span>
-									 </nav>
 
-								 </div>
+								 {
+						this.state.posts.map((p) => {
+							return <Post />
+						})
+					}
 
-								 <div className="wrap p-2 m-2 tweet">
-									 <span className="mr-2"><a href="">@UserName</a></span>
-									 <span className="mr-2"> 9 July, 2019</span>
-									 <span className="mr-2">12:23 PM </span>
-									 <nav><div class="body">Hey!! How has it been going? Let's hang out!"</div></nav>
-								 </div>
-
-								 <div className="wrap p-2 m-2 tweet">
-									 <span className="mr-2"><a href="">@UserName</a></span>
-									 <span className="mr-2"> 9 July, 2019</span>
-									 <span className="mr-2">12:23 PM </span>
-									 <nav><div class="body">Hey!! How has it been going? Let's hang out!"</div></nav>
-								 </div>
 	            </div>
 					</div>
 					<div className="row" id="tweet">
@@ -95,7 +98,7 @@ class Profile extends Component {
 					</div>
 					</div>
 
-					<div className="col-3" id="hashtags" >
+					<div className="col-2" id="hashtags" >
 		        <h5>Who to Follow!</h5>
 						<ul className="list-unstyled">
 							<li className="active"> <a href=""> #NoFilter </a> </li>
