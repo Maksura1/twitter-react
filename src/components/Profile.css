@@ -76,7 +76,8 @@
 	height: 350px;
 	overflow: auto;
 	background-color: white;
-	border: solid 2px grey;
+	border: solid 2px darkgrey;
+	border-radius: 5px;
 }
 
 .blue {
