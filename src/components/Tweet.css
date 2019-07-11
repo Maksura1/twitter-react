@@ -1,0 +1,9 @@
+#new-tweets {
+	padding: 5px;
+	background-color: #007bff;
+}
+#new-tweets button{
+color: #007bff;
+background-color: lightblue;
+border-color: lightblue;
+}

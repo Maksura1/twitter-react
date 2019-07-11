@@ -1,5 +1,6 @@
 .container {
 	background-color: white;
+	width: inherit;
 }
 
 #header {
@@ -84,8 +85,8 @@
 	margin: 5px;
 	padding: 5px;
 }
-.tweet {
-	background-color: lightblue;
+#tweet {
+	background-color: #007bff;;
 	border-radius: 5px;
 
 }

@@ -88,7 +88,7 @@ class Profile extends Component {
 								 </div>
 	            </div>
 					</div>
-					<div className="row">
+					<div className="row" id="tweet">
 					<div className="col-12">
 					<Tweet />
 					</div>
