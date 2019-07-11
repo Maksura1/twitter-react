@@ -13,11 +13,11 @@ class Profile extends Component {
 				date: '2 Jul 2019',
 				time: '9:09AM',
 				body: 'Hello World',
-				hashtag: '#Fun',
+				hashtag: 'Fun',
 				like: 2
 			}, {
 				id: 2,
-				user: 'Poonam Alam',
+				userName: 'Poonam Alam',
 				date: '2 Jul 2019',
 				time:'12AM',
 				body: 'Hey, what up?',
